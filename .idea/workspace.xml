@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad759350-39c2-49db-9538-5c47ebfa1202" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/preview.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/publish.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/media/bg-triangles.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/media/build-website.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/media/coffee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/media/icons/custom/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/media/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/media/testimonial-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/_default/hugo.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/_default/languages.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/_default/menus.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/_default/module.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/_default/params.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/authors/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/authors/admin/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/authors/admin/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/data-visualization/featured.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/data-visualization/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/data-visualization/line-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/data-visualization/results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/get-started/featured.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/get-started/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/project-management/featured.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/project-management/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/second-brain/featured.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/second-brain/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/teach-courses/ambient-piano.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/teach-courses/featured.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/blog/teach-courses/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/privacy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/terms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hugo-blox/blox/all-access/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hugo-blox/blox/community/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hugoblox.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/hookah_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/member_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sparkle_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/tn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netlify.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../theme.toml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2qOfTWdunExlU4hgJLV414OIdI2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/noam/Downloads/Issac_site",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PS-243.22562.164" />
+        <option value="bundled-php-predefined-a98d8de5180a-7980c7aaca61-com.jetbrains.php.sharedIndexes-PS-243.22562.164" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad759350-39c2-49db-9538-5c47ebfa1202" name="Changes" comment="" />
+      <created>1734538549623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734538549623</updated>
+      <workItem from="1734538552239" duration="2551000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
