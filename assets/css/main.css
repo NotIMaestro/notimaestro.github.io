@@ -237,7 +237,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: Noto Sans Hebrew;
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -302,7 +302,7 @@ input, select, textarea {
 			text-decoration: none;
 			border-bottom: 0;
 			display: block;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: Noto Sans Hebrew;
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
@@ -319,7 +319,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: Noto Sans Hebrew;
 				font-weight: 900;
 			}
 
@@ -445,7 +445,7 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.025);
 		border-radius: 5px;
 		border: solid 2px rgba(255, 255, 255, 0.125);
-		font-family: "Courier New", monospace;
+		font-family: Noto Sans Hebrew;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -453,7 +453,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: Noto Sans Hebrew;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -2283,7 +2283,7 @@ input, select, textarea {
 	label {
 		color: #ffffff;
 		display: block;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: Noto Sans Hebrew;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2386,7 +2386,7 @@ input, select, textarea {
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: Noto Sans Hebrew;
 			text-transform: none;
 			letter-spacing: 0;
 			font-weight: 300;
@@ -2405,7 +2405,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: Noto Sans Hebrew;
 				font-weight: 900;
 			}
 
@@ -2505,7 +2505,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: Noto Sans Hebrew;
 			font-weight: 400;
 		}
 
@@ -2522,7 +2522,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: Noto Sans Hebrew;
 		}
 
 /* Image */
@@ -2796,7 +2796,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: Noto Sans Hebrew;
 				font-weight: 400;
 			}
 
@@ -2986,7 +2986,7 @@ input, select, textarea {
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: Noto Sans Hebrew;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3.75em;
@@ -3220,7 +3220,7 @@ input, select, textarea {
 			}
 
 		#header nav {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: Noto Sans Hebrew;
 			font-size: 0.8em;
 			font-weight: 700;
 			height: 3em;
@@ -3263,7 +3263,7 @@ input, select, textarea {
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
+						font-family: Noto Sans Hebrew;
 						font-weight: 900;
 					}
 
@@ -3443,7 +3443,7 @@ input, select, textarea {
 					border-radius: 5px;
 					border: 0;
 					display: block;
-					font-family: Raleway, Helvetica, sans-serif;
+					font-family: Noto Sans Hebrew;
 					font-size: 0.8em;
 					font-weight: 200;
 					letter-spacing: 0.1em;
@@ -3681,7 +3681,7 @@ input, select, textarea {
 		}
 
 		#wrapper > header p {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: Noto Sans Hebrew;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
@@ -4271,62 +4271,119 @@ input, select, textarea {
 
 	}
 
-
-/* Header text styling */
-.header {
-    position: relative;
-    margin-bottom: 30px; /* Increased margin for spacing */
+/* General container for the header */
+.header-container {
+    text-align: right;
+    padding-right: 20px;
 }
 
-.header h2 {
-    font-size: 36px; /* Larger font size for the header */
-    line-height: 1.5;
-    color: #ffffff; /* Optional: Ensure it's visible */
+/* Styling for the header text */
+h2.major {
+    font-size: 42px; /* Increased for more prominence */
+    font-weight: bold;
+    color: #ffffff; /* Keep it white for dark background */
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds subtle shadow for professional touch */
 }
 
 /* Flexbox for columns */
 .three-columns {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* Even spacing between columns */
     text-align: center;
-    margin-top: 40px; /* Increased spacing above the columns */
+    margin-top: 20px; /* Space between header and columns */
+    gap: 40px; /* Increased gap for better spacing */
 }
 
 .column {
     flex: 1;
-    margin: 0 20px; /* Increased margin for column spacing */
+    padding: 30px; /* Increased padding for a larger column */
+	padding-left: 20px;
+	padding-right: 20px;
+    margin: 0 20px; /* Increased margin for cleaner spacing */
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle background for separation */
+    border-radius: 20px; /* Slightly larger rounded corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Increased shadow for a stronger look */
+    max-width: 400px; /* Restrict the column width */
 }
 
 /* Circle styling with images inside */
 .circle {
-    width: 150px; /* Increased width for larger circles */
-    height: 150px; /* Increased height for larger circles */
+    width: 150px; /* Increased width */
+    height: 150px; /* Increased height */
     border-radius: 50%;
-    background-color: #ffcc00;
-    margin: 0 auto 20px; /* Adjusted spacing */
+    background-color: #ffcc00; /* Vibrant highlight */
+    margin: 0 auto 20px; /* Space between circle and text */
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for emphasis */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds more dimension */
+    transition: transform 0.3s ease; /* Add a hover animation */
 }
 
 .circle img {
-    width: 100%; /* Ensures the image fits the circle */
-    height: 100%; /* Ensures the image fits the circle */
-    object-fit: cover; /* Keeps the image aspect ratio */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.circle:hover {
+    transform: scale(1.1); /* Enlarges slightly on hover */
 }
 
 /* Column headings styling */
 .column h3 {
-    font-size: 24px; /* Larger font size for column titles */
-    margin-bottom: 15px;
-    color: #ffffff; /* Optional: Adjust text color */
+    font-size: 28px; /* Larger font size for column titles */
+    font-weight: bold;
+    color: #ffffff; /* Keep headings visible on dark background */
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Adds a more professional tone */
+    letter-spacing: 1.2px; /* Better readability */
 }
 
 /* Paragraph styling */
 .column p {
-    font-size: 18px; /* Increased paragraph font size */
-    line-height: 1.6; /* Adjusted for better readability */
-    color: #ffffff; /* Subtle text color */
+    font-size: 20px; /* Slightly larger font size */
+    line-height: 1.8;
+    color: #eeeeee; /* Light grey for better readability */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center; /* Professional alignment */
 }
+
+/* Hover effect for the column */
+.column:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly brightens on hover */
+    transform: translateY(-8px); /* Adds a lifting effect */
+    transition: all 0.3s ease;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .three-columns {
+        flex-direction: column; /* Stack columns vertically */
+        gap: 30px; /* Space between stacked columns */
+    }
+
+    .column {
+        max-width: 100%; /* Allow columns to take full width */
+        padding: 40px; /* Slightly reduce padding for smaller screens */
+    }
+
+    .circle {
+        width: 120px; /* Reduced size for smaller screens */
+        height: 120px;
+    }
+
+    .column h3 {
+        font-size: 22px; /* Slightly smaller for responsiveness */
+    }
+
+    .column p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}
+
+
