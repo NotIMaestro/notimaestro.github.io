@@ -4322,17 +4322,23 @@ input, select, textarea {
 
 /* Circle styling with images inside */
 .circle {
-    width: 150px; /* Increased width for larger circles */
-    height: 150px; /* Increased height for larger circles */
-    border-radius: 50%;
-    background-color: #ffcc00;
-    margin: 0 auto 20px; /* Adjusted spacing */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for emphasis */
+	width: 150px; /* Increased width for larger circles */
+	height: 150px; /* Increased height for larger circles */
+	border-radius: 50%;
+	background-color: #ffcc00;
+	margin: 0 auto 20px; /* Adjusted spacing */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for emphasis */
+	transition: transform 0.3s ease-in-out;
 }
+
+	.circle:hover {
+		transform: scale(1.1); /* Slight zoom on hover */
+		cursor: pointer;
+	}
 
 .circle img {
     width: 100%; /* Ensures the image fits the circle */
