@@ -4270,3 +4270,63 @@ input, select, textarea {
 		}
 
 	}
+
+
+/* Header text styling */
+.header {
+    position: relative;
+    margin-bottom: 30px; /* Increased margin for spacing */
+}
+
+.header h2 {
+    font-size: 36px; /* Larger font size for the header */
+    line-height: 1.5;
+    color: #ffffff; /* Optional: Ensure it's visible */
+}
+
+/* Flexbox for columns */
+.three-columns {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 40px; /* Increased spacing above the columns */
+}
+
+.column {
+    flex: 1;
+    margin: 0 20px; /* Increased margin for column spacing */
+}
+
+/* Circle styling with images inside */
+.circle {
+    width: 150px; /* Increased width for larger circles */
+    height: 150px; /* Increased height for larger circles */
+    border-radius: 50%;
+    background-color: #ffcc00;
+    margin: 0 auto 20px; /* Adjusted spacing */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for emphasis */
+}
+
+.circle img {
+    width: 100%; /* Ensures the image fits the circle */
+    height: 100%; /* Ensures the image fits the circle */
+    object-fit: cover; /* Keeps the image aspect ratio */
+}
+
+/* Column headings styling */
+.column h3 {
+    font-size: 24px; /* Larger font size for column titles */
+    margin-bottom: 15px;
+    color: #ffffff; /* Optional: Adjust text color */
+}
+
+/* Paragraph styling */
+.column p {
+    font-size: 18px; /* Increased paragraph font size */
+    line-height: 1.6; /* Adjusted for better readability */
+    color: #ffffff; /* Subtle text color */
+}
