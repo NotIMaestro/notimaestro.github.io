@@ -3472,7 +3472,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 10em 0 4.75em 0 ;
+		padding: 3em 0 4.75em 0 ;
 	}
 
 		#banner .inner {
@@ -3548,7 +3548,7 @@ input, select, textarea {
 			filter: blur(0);
 			opacity: 1;
 			font-family: Noto Sans Hebrew;
-			font-size: 1em;
+			font-size: 1.2em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
