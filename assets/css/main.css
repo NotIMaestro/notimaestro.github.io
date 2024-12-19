@@ -20,24 +20,47 @@
 
 /* WhatsApp Icon Container */
 .whatsapp_icon_css {
-	position: fixed;
-	bottom: 0%;
-	left: -7%;
-	z-index: 1000;
+	position: fixed; /* Fix the position relative to the viewport */
+	bottom: 20px; /* Distance from the bottom */
+	left: 20px; /* Distance from the left */
+	z-index: 1000; /* Ensures it stays above other content */
 }
 
 	/* WhatsApp Icon Styling */
 	.whatsapp_icon_css img {
-		width: 50%;
-		height: 50%;
-		transition: transform 0.3s ease-in-out;
+		width: 60px; /* Default size for larger screens */
+		height: auto; /* Maintain aspect ratio */
+		transition: transform 0.3s ease-in-out; /* Smooth hover effect */
 	}
 
-		/* Optional Hover Effect */
+		/* Hover Effect */
 		.whatsapp_icon_css img:hover {
-			transform: scale(1.1);
+			transform: scale(1.1); /* Slight zoom on hover */
 			cursor: pointer;
 		}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+	.whatsapp_icon_css {
+		bottom: 10px; /* Adjust position for smaller screens */
+		left: 10px;
+	}
+
+		.whatsapp_icon_css img {
+			width: 45px; /* Smaller size for mobile */
+		}
+}
+
+@media (max-width: 480px) {
+	.whatsapp_icon_css {
+		bottom: 5px; /* Further adjust position for very small screens */
+		left: 5px;
+	}
+
+		.whatsapp_icon_css img {
+			width: 40px; /* Even smaller size for small mobile devices */
+		}
+}
 
 /* Next & previous buttons */
 .prev-slideshow, .next-slideshow {
